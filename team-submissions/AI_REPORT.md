@@ -225,6 +225,20 @@ tests_selnc.py::TestPhysicalCorrectness::test_known_optimal_sequences PASSED
 tests_selnc.py::TestPerformance::test_small_n_completes_quickly PASSED
 tests_selnc.py::TestIntegration::test_quantum_classical_hybrid PASSED
 ```
+## AI Verification & Quality Assurance  
+**Contributor: Nazeefa Labiba**
+
+AI-assisted code was used during development, but all AI-generated components were treated as **untrusted** until independently verified. The verification and quality assurance process was led by **Nazeefa Labiba** and focused on ensuring physical correctness, numerical consistency, and safe GPU acceleration.
+
+AI-generated code was accepted only after:
+- Passing **physical correctness checks** (energy non-negativity, negation symmetry, and reversal symmetry of LABS sequences).
+- Matching **known optimal solutions**, including Barker-11 and Barker-13 sequences.
+- Producing consistent results across **CPU and GPU execution paths**.
+- Matching **sequential ground-truth calculations** for batch GPU neighbor evaluation within numerical tolerance.
+
+Several AI suggestions were rejected or simplified after empirical testing, including overestimated GPU speedup claims and unnecessary GPU-specific optimizations.
+
+The automated test suite covers approximately **95% of critical execution paths** and is designed to fail on any physical violation or numerical inconsistency introduced by AI-generated code.
 
 ## Conclusion
 
