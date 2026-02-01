@@ -54,17 +54,27 @@
 * • **Dev Environment:** Google Colab (T4 GPU) for initial testing.
 * • **Production Environment:** Brev.dev L4/A100 instances for heavy benchmarking and N=30+ scaling studies.
 
-## 4. The Verification Plan
+## 4. The Verification Plan  
+**Owner: Nazeefa**
 
-**Owner:** Nazeefa
+### Verification Philosophy  
+Verification focused on **correctness before performance**.  
+AI-generated and GPU-accelerated code was **not trusted by default** and was validated using known LABS properties and sequential reference calculations executed in the Colab environment.
 
-### Unit Testing Strategy
+### Unit Testing Strategy  
+- **Framework:** Automated `pytest` test suite (`tests.py`)  
+- **Purpose:** Detect **physical violations** and **numerical inconsistencies**, especially when introducing GPU batch operations.
 
-* • **Framework:** Automated pytest suite (`tests.py`) running on each commit.
-* • **Automated Assertions:**
-    * ◦ `assert calculate_energy(S) == calculate_energy(-S)` (Negation symmetry).
-    * ◦ `assert calculate_energy(S) == calculate_energy(S[::-1])` (Reversal symmetry).
-    * ◦ `assert calculate_energy(Barker13) == 0` (Known optimal).
+### Physical Correctness Checks  
+The following LABS invariants were verified through tests and manual inspection of results:
+- **Negation symmetry:** `E(S) = E(−S)`  
+- **Reversal symmetry:** `E(S) = E(S[::-1])`  
+- **Known optimal sequences:** `E(Barker11) = 0`, `E(Barker13) = 0`  
+- **Energy non-negativity:** `E(S) ≥ 0` for all tested sequences
+
+### Mathematical Consistency  
+- Autocorrelations were recomputed independently
+
 
 ## 5. Execution Strategy & Success Metrics
 
