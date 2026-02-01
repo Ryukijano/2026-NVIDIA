@@ -64,6 +64,15 @@ best_sol, best_energy, history, timing = mts.gpu_mts(
 ```bash
 pytest tests.py -v --tb=short
 ```
+In addition to the automated test suite, verification and scaling experiments were conducted using a dedicated Colab notebook:
+- **Hybrid_Quantum_Classical_LABS_Verification_and_Scaling.ipynb**  
+  This notebook is used to:
+  - Re-run key **physical correctness checks** (negation symmetry, reversal symmetry, Barker sequences, non-negative energy)
+  - Compare **CPU vs GPU runtimes** for multiple values of N
+  - Generate the **Time vs N** and **Best Energy vs N** plots referenced in this document and the final presentation
+
+The notebook complements the automated checks in `tests.py` and was used to validate results interactively before final benchmarking.
+
 
 ### 3. **AI_REPORT.md** (AI Code Review)
 **Documenting AI-assisted development process**
