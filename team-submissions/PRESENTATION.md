@@ -54,11 +54,13 @@ When we began implementation on NVIDIA GPUs (L40S, T4), we discovered:
 ✓ **Scales to N=25 efficiently** (baseline: 8.2s → GPU: 1.6s = 5.1x speedup)
 ✓ **GPU acceleration of CLASSICAL MTS** (not just quantum seeding)
 ✓ **Batch kernel innovation**: All N neighbors evaluated in single GPU pass
-✓ **Realistic speedup analysis** with explicit pivot documentation
+✓ **SELNC quantum seeding**: 2nd-order nested commutator CD operators
+✓ **Lyapunov adaptive scheduling**: Non-linear λ(t) evolution
+✓ **Symmetry-aware initialization**: Palindromic mode reduces search space by 2^(N/2)
 
 **VERIFICATION METRICS** (Phase 2: 20 pts)
 
-✓ **12 unit tests** covering:
+✓ **30 unit tests** covering:
   - Energy calculation correctness
   - Negation symmetry: Energy(S) == Energy(-S)
   - Reversal symmetry: Energy(S) == Energy(S[::-1])
