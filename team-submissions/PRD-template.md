@@ -8,8 +8,8 @@
 |---|---|---|---|
 | **Project Lead** (Architect) | Gyanateet Dutta | [@ryukijano] | [@ryukijano] |
 | **GPU Acceleration PIC** (Builder) | Gyanateet Dutta | [@ryukijano] | [@ryukijano] |
-| **Quality Assurance PIC** (Verifier) | Gyanateet Dutta | [@ryukijano] | [@ryukijano] |
-| **Technical Marketing PIC** (Storyteller) | Gyanateet Dutta | [@ryukijano] | [@ryukijano] |
+| **Quality Assurance PIC** (Verifier) | Nazeefa | [@nazeefa7381] | [susdecoder] |
+| **Technical Marketing PIC** (Storyteller) | Sierra C | [@sierra-dotcom] | [@sol_tide] |
 
 ## 2. The Architecture
 
@@ -26,9 +26,9 @@
 
 ### Literature Review
 
-* • **Reference:** Gomez Cadavid, A., Chandarana, P., et al. \"Scaling advantage with quantum-enhanced memetic tabu search for LABS\" (2025). [Link to arXiv:2511.04553v1]
+* • **Reference:** Gomez Cadavid, A., Chandarana, P., et al. "Scaling advantage with quantum-enhanced memetic tabu search for LABS" (2025). [Link to arXiv:2511.04553v1]
 * • **Relevance:** Foundation for quantum-enhanced hybrid workflows for LABS problems.
-* • **Reference:** Passarelli, G., et al. \"Counterdiabatic driving in the quantum annealing of the p-spin model.\" Physical Review Research (2020).
+* • **Reference:** Passarelli, G., et al. "Counterdiabatic driving in the quantum annealing of the p-spin model." Physical Review Research (2020).
 * • **Relevance:** Provides theoretical basis for nested commutator expansions in counterdiabatic driving.
 
 ## 3. The Acceleration Strategy
@@ -56,7 +56,7 @@
 
 ## 4. The Verification Plan
 
-**Owner:** Gyanateet Dutta
+**Owner:** Nazeefa
 
 ### Unit Testing Strategy
 
@@ -68,7 +68,7 @@
 
 ## 5. Execution Strategy & Success Metrics
 
-**Owner:** Gyanateet Dutta
+**Owner:** Sierra C
 
 ### Agentic Workflow
 
