@@ -1,6 +1,16 @@
+
 """
-Comprehensive Test Suite for Phase 2 Implementation
-Testing GPU-accelerated LABS MTS and verification of physical correctness
+GPU-Accelerated Memetic Tabu Search (MTS) for the LABS problem.
+
+Phase 2: NVIDIA CUDA GPU Acceleration.
+Implements:
+- Vectorized LABS energy computation using CuPy
+- Batch neighbor exploration on GPU
+- CPU vs GPU benchmarking for different N
+
+This module is used by:
+- tests_selnc.py for verification 
+- Hybrid_Quantum_Classical_LABS_Verification_and_Scaling.ipynb for scaling experiments
 """
 
 import numpy as np
