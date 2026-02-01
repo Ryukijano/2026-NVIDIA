@@ -6,10 +6,10 @@
 
 | Role | Name | GitHub Handle | Discord Handle |
 |---|---|---|---|
-| **Project Lead** (Architect) | Gyanateet Dutta | [@handle] | [@handle] |
-| **GPU Acceleration PIC** (Builder) | Gyanateet Dutta | [@handle] | [@handle] |
-| **Quality Assurance PIC** (Verifier) | Gyanateet Dutta | [@handle] | [@handle] |
-| **Technical Marketing PIC** (Storyteller) | Gyanateet Dutta | [@handle] | [@handle] |
+| **Project Lead** (Architect) | Gyanateet Dutta | [@ryukijano] | [@ryukijano] |
+| **GPU Acceleration PIC** (Builder) | Gyanateet Dutta | [@ryukijano] | [@ryukijano] |
+| **Quality Assurance PIC** (Verifier) | Nazeefa  | [@nazeefa7381] | [susdecoder] |
+| **Technical Marketing PIC** (Storyteller) | Sierra C  | [@sierra-dotcom] | [@sol_tide] |
 
 ## 2. The Architecture
 
@@ -56,7 +56,7 @@
 
 ## 4. The Verification Plan
 
-**Owner:** Gyanateet Dutta
+**Owner:** Nazeefa
 
 ### Unit Testing Strategy
 
@@ -68,7 +68,7 @@
 
 ## 5. Execution Strategy & Success Metrics
 
-**Owner:** Gyanateet Dutta
+**Owner:** Sierra C
 
 ### Agentic Workflow
 
