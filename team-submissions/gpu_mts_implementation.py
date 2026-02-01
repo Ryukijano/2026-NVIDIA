@@ -1,9 +1,15 @@
 """
-GPU-Accelerated Memetic Tabu Search (MTS) for LABS Problem
-Phase 2 Implementation: NVIDIA CUDA GPU Acceleration
+Comprehensive Test Suite for SELNC LABS Solver
+Phase 2 Implementation - iQuHACK 2026 NVIDIA Challenge
 
-Implements vectorized LABS energy computation and batch neighbor exploration
-using CuPy for efficient GPU memory management and parallelization.
+Tests cover:
+1. LABS energy computation and physical symmetries
+2. SELNC quantum kernel correctness
+3. GPU-accelerated MTS functionality
+4. Lyapunov controller behavior
+5. Performance and scaling
+
+Run with: pytest tests_selnc.py -v --tb=short
 """
 
 import numpy as np
