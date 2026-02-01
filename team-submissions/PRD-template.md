@@ -1,6 +1,6 @@
 # Product Requirements Document (PRD)
 
-**Project Name:** LABS-Solv-V2 | **Team Name:** [Your Team Name] | **GitHub Repository:** https://github.com/Ryukijano/2026-NVIDIA
+**Project Name:** SELNC | **Team Name:** [Cudits] | **GitHub Repository:** https://github.com/Ryukijano/2026-NVIDIA
 
 ## 1. Team Roles & Responsibilities
 
